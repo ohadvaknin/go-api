@@ -2,4 +2,7 @@ module github.com/ohadvaknin/go-api
 
 go 1.22.3
 
-require github.com/gorilla/mux v1.8.1 // indirect
+require (
+	github.com/google/uuid v1.3.0 // indirect
+	github.com/gorilla/mux v1.8.1 // indirect
+)
